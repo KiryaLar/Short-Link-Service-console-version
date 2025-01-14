@@ -14,6 +14,29 @@
   - **Удаление ссылки:** Пользователь может удалить свою ссылку.
   - **Изменение лимита переходов:** Пользователь может изменить максимальное количество переходов (click limit) для своей ссылки.
 
+## Структура проекта
+src/
+ └── main/
+      ├── java/
+      │    └── ru/
+      │         └── larkin/
+      │              ├── exceptions/
+      │              │     └── IllegalUserException.java
+      │              ├── model/
+      │              │     ├── Link.java
+      │              │     └── User.java
+      │              ├── notifications/
+      │              │     └── NotificationService.java
+      │              ├── repository/
+      │              │     ├── LinkRepository.java
+      │              │     └── UserRepository.java
+      │              ├── service/
+      │              │     ├── LinkService.java
+      │              │     └── UserService.java
+      │              ├── Config.java
+      │              └── Main.java
+      └── resources/    
+      
 ## Использование
 При запуске приложение предлагает выбрать один из режимов:
 
